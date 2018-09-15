@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SolidVehicles._Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace SolidVehicles.Water_Based
 {
-    class Tugboat
+    public class Tugboat : ISwimmer
     {
         public int Wheels { get; set; }
         public int Doors { get; set; }

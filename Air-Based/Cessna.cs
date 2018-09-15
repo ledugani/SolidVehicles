@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SolidVehicles.Air_Based
 {
-    public class Cessna : IVehicles
+    public class Cessna : IFly
     {
         public int Wheels { get; set; } = 3;
         public int Doors { get; set; } = 3;

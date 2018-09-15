@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SolidVehicles.Land_Based
 {
-    public class Ducati : IVehicles
+    public class Ducati : IDriver
     {
         public int Wheels { get; set; } = 2;
         public int Doors { get; set; } = 0;

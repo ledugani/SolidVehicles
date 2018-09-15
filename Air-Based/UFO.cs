@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SolidVehicles._Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace SolidVehicles.Air_Based
 {
-    class UFO
+    public class UFO : IFly
     {
         public int Wheels { get; set; } = 0;
         public int Doors { get; set; } = 0;
