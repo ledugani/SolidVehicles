@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SolidVehicles._Interfaces
 {
-    public interface IDrive : IVehicles
+    public interface IFly : IVehicles
     {
         // a bool property called Winged
         bool Winged { get; }
